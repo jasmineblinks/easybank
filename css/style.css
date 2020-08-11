@@ -244,4 +244,69 @@
   color: gray;
   line-height: 25px;
 }
+
+.container footer {
+  width: 100%;
+  background: #2d314d;
+  height: 200px;
+}
+
+.container footer .lastpage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 50px;
+}
+
+.container footer .lastpage li {
+  color: #ffffff;
+  list-style: none;
+  margin: 10px;
+}
+
+.container footer .attribution {
+  color: #ffffff;
+}
+
+.container footer .easy {
+  color: #ffffff;
+}
+
+.container footer .attribution a {
+  color: #ffffff;
+}
+
+.container footer .footer_icon {
+  margin-bottom: 35px;
+}
+
+.container footer .socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container footer .last_button button {
+  background: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
+  background: linear-gradient(90deg, #31d35c, #2bb7da);
+  color: #ffffff;
+  border: none;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 50px;
+  font-size: 13px;
+  font-weight: 600;
+  width: 150px;
+}
+
+.container footer .last_button button:hover {
+  background-image: -webkit-gradient(linear, left top, right top, from(#2bb7da), to(#31d35c));
+  background-image: linear-gradient(90deg, #2bb7da, #31d35c);
+  color: #fff;
+}
 /*# sourceMappingURL=style.css.map */

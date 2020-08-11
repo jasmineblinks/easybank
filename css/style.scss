@@ -221,6 +221,65 @@
     }
 
   } 
+//   footer
+  footer{
+      width: 100%;
+      background:hsl(233, 26%, 24%);
+      height: 200px;
+
+      .lastpage{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+
+        
+    }
+    .lastpage li{
+        color: #ffffff;
+        list-style: none;
+        margin: 10px;
+    }
+    
+    .attribution{
+        color: #ffffff;
+    }
+    .easy{
+        color: #ffffff;
+    }
+    .attribution a{
+        color: #ffffff;
+    }
+    .footer_icon{
+        margin-bottom:35px
+    }
+    .socials{
+        display: flex;
+        justify-content: space-between;
+        
+        
+    }
+    .last_button button{
+        background: linear-gradient(90deg,hsl(136, 65%, 51%),hsl(192, 70%, 51%));
+            color: #ffffff;
+            border: none;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 50px;
+            font-size: 13px;
+            font-weight: 600;
+            width: 150px;
+    }
+    .last_button button:hover{
+        background-image: linear-gradient(90deg, hsl(192, 70%, 51%),hsl(136, 65%, 51%),);
+            color: #fff;
+    }
+
+    
+  }
+  
+  
+  
+
 
     
 }
