@@ -78,21 +78,21 @@
   display: flex;
   height: auto;
   margin: auto;
-  padding-bottom: 80px;
 }
 
 .container .first-part > .mocka {
   position: relative;
-  top: -160px;
+  top: -230px;
   right: -39%;
   width: 800px;
   height: 800px;
 }
 
-.container .first-part > .mockb {
+.container .first-part .mockb {
   position: absolute;
-  right: -130px;
-  top: -80px;
+  right: -150px;
+  top: -70px;
+  bottom: 0px;
 }
 
 .container .first-part > .first-text {

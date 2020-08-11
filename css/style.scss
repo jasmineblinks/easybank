@@ -71,19 +71,21 @@
 	// margin-top: -20px;
     height: auto;
     margin: auto;
-    padding-bottom:80px;
+    // margin-bottom:20px;
     
     >.mocka{
         position: relative;
-        top: -160px;
+        top: -230px;
         right: -39%;
          width: 800px;
          height: 800px;
     }
-    >.mockb{
+    .mockb{
         position: absolute;
-        right: -130px;        
-	    top: -80px;
+        right: -150px;        
+        top: -70px;
+        bottom: 0px;
+    
     }
     >.first-text{
         margin-top: 103px;
@@ -125,6 +127,7 @@
     
     
   .second-part{
+    
       margin-top:80px;
       margin-bottom: 100px;
       background-color: #ffffff;
