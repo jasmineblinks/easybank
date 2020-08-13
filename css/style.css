@@ -71,28 +71,29 @@
 }
 
 .container .first-part {
-  background: #f5f5f5;
+  background: whitesmoke;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: auto;
+  z-index: 3;
+  padding-bottom: 50px;
+  height: 100%;
   margin: auto;
 }
 
 .container .first-part > .mocka {
   position: relative;
-  top: -230px;
-  right: -39%;
+  top: -200px;
+  left: 500px;
   width: 800px;
   height: 800px;
 }
 
-.container .first-part .mockb {
+.container .first-part .mockb img {
   position: absolute;
-  right: -150px;
-  top: -70px;
-  bottom: 0px;
+  left: 650px;
+  top: -100px;
 }
 
 .container .first-part > .first-text {
@@ -140,6 +141,7 @@
   margin-bottom: 100px;
   background-color: #ffffff;
   padding: 10px,12px;
+  z-index: 1;
 }
 
 .container .second-part .second-text h2 {
