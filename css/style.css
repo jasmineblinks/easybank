@@ -370,8 +370,42 @@
     position: absolute;
     left: 5px;
     top: -250px;
-    width: 400px;
     height: 500px;
+  }
+  .container .first-part .first-text {
+    margin-top: 103px;
+    margin-left: 15px;
+    padding: 2rem 0;
+  }
+  .container .first-part .first-text h1 {
+    font-size: 50px;
+    font-weight: normal;
+    width: 50%;
+    color: #555555;
+    margin-bottom: 20px;
+  }
+  .container .first-part .first-text p {
+    line-height: 25px;
+    color: gray;
+    font-size: 15px;
+    margin-bottom: 20px;
+    width: 40%;
+  }
+  .container .first-part .first-text button {
+    background: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
+    background: linear-gradient(90deg, #31d35c, #2bb7da);
+    color: #ffffff;
+    border: none;
+    padding: 15px;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: 600;
+    width: 150px;
+  }
+  .container .first-part .first-text button:hover {
+    background-image: -webkit-gradient(linear, left top, right top, from(#2bb7da), to(#31d35c));
+    background-image: linear-gradient(90deg, #2bb7da, #31d35c);
+    color: #fff;
   }
 }
 /*# sourceMappingURL=style.css.map */

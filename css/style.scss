@@ -356,11 +356,47 @@
                 position: absolute;
                 left:5px;        
                 top: -250px;
-                width: 400px;
+                
                 height: 500px;
         
             
             }
+            .first-text{
+                margin-top: 103px;
+                margin-left: 15px;
+                padding: 2rem 0;
+                h1{
+                    font-size: 50px;
+                    font-weight: normal;
+                    width: 50%;
+                    color: #555555;
+                    margin-bottom: 20px;
+                }
+                p{
+                    line-height: 25px;
+                    color: gray;
+                    font-size: 15px;
+                    margin-bottom: 20px;
+                    width: 40%;
+                    
+                }
+                button{
+                    background: linear-gradient(90deg,hsl(136, 65%, 51%),hsl(192, 70%, 51%));
+                    color: #ffffff;
+                    border: none;
+                    padding: 15px;
+                    border-radius: 50px;
+                    font-size: 13px;
+                    font-weight: 600;
+                    width: 150px;
+                }
+                button:hover{
+                    background-image: linear-gradient(90deg, hsl(192, 70%, 51%),hsl(136, 65%, 51%),);
+                    color: #fff;
+                    
+                }
+            }
+            
            
         }
         
