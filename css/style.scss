@@ -46,6 +46,7 @@
             color: #fff;
             
         }
+       
         button{
             background: linear-gradient(90deg,hsl(136, 65%, 51%),hsl(192, 70%, 51%));
             color: #ffffff;
@@ -55,6 +56,9 @@
             font-size: 13px;
             font-weight: 600;
             width: 150px;
+        }
+        .mobile_dropdown_btn{
+            display: none;
         }
         button:hover{
             background-image: linear-gradient(90deg, hsl(192, 70%, 51%),hsl(136, 65%, 51%),);
@@ -68,6 +72,7 @@
         background:hsl(0, 0%, 96%);
         position: relative;	
         display: flex;
+        flex-flow: row wrap;
         // padding-bottom: 50px;
         // justify-content: space-between;
 	// margin-top: -20px;
@@ -83,7 +88,9 @@
          height: 800px;
     }
     
-    
+    .mockab{
+        display: none;
+    }
     .mockb{
         position: absolute;
         left:660px;        
@@ -291,8 +298,80 @@
   
 
 
+
+
+
+
     
 }
 
 
 
+    
+    // media query
+
+
+.container {
+    margin: auto;
+
+    @media screen and (max-width: 600px) {
+        nav{
+            background-color: hsl(0, 0%, 100%);
+            width: 100%;
+            height: 70px;
+            padding: 30px,30px; 
+            // display: inline-block;
+            margin-top:10px;
+            margin-left: 15px;
+            .la-links{
+                display: none;
+            }
+            button{
+                display: none;
+            }
+            .mobile_dropdown_btn{
+                display: inline-block;
+                
+            }
+            
+        }
+        .first-part{
+            background:hsl(0, 0%, 96%);
+
+            // margin-top: -30px;
+            height: 500px;
+            display: block;
+	        overflow: hidden;
+            padding-bottom: 0px;
+            flex-flow: column;
+            .mocka{
+                display: none;
+            }
+            .mockab{
+                position: relative;
+                left:0px;
+                display: block;
+            }
+            .mockb{
+                position: absolute;
+                left:5px;        
+                top: -250px;
+                width: 400px;
+                height: 500px;
+        
+            
+            }
+           
+        }
+        
+    }
+    
+
+    
+}
+    
+          
+            
+        
+        
+        
