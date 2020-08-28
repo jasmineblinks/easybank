@@ -462,7 +462,9 @@
     padding-bottom: 80px;
   }
   .container .articles > h1 {
-    font-size: 25px;
+    font-size: 37px;
+    font-weight: normal;
+    text-align: center;
     color: #555555;
     margin-top: 60px;
     margin-bottom: 40px;
@@ -475,7 +477,7 @@
         flex-wrap: wrap;
   }
   .container .articles .articles-text .articles-four {
-    width: 240px;
+    width: 350px;
     border-radius: 5px;
     margin-top: 20px;
     margin-right: 20px;
@@ -490,6 +492,7 @@
   .container .articles .articles-text .articles-four .da_text {
     color: gray;
     margin-left: 7%;
+    margin-right: 30px;
     margin-bottom: 7%;
   }
   .container .articles .articles-text .articles-four h2 {

@@ -467,7 +467,9 @@
   padding-left: 7%;
   padding-bottom: 80px;
   >h1{
-      font-size: 25px;
+      font-size: 37px;
+      font-weight: normal;
+      text-align: center;
       color: #555555;
       margin-top: 60px;
       margin-bottom: 40px;
@@ -476,7 +478,7 @@
       display: flex;
       flex-wrap: wrap;
       .articles-four{
-          width: 240px;
+          width: 350px;
           border-radius: 5px;
           margin-top: 20px;
           margin-right: 20px;
@@ -491,6 +493,7 @@
           .da_text{
               color: gray;
               margin-left: 7%;
+              margin-right:30px ;
               margin-bottom: 7%;
           }
           h2{
