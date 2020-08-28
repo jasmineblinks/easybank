@@ -430,12 +430,12 @@
         margin-bottom: 100px;
     }
     .cards{
-        display: flex;
+        display: block;
         margin-left: 7%;
         // flex-wrap: wrap;
         
         >.the-four{
-               width: 500px;
+               width: 300px;
             text-align: center;
             margin-left: 8px;
            line-height: 25px;
