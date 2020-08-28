@@ -507,5 +507,56 @@
     color: gray;
     line-height: 25px;
   }
+  .container footer {
+    width: 100%;
+    background: #2d314d;
+    height: 500px;
+  }
+  .container footer .lastpage {
+    display: block;
+    margin-top: 50px;
+  }
+  .container footer .lastpage li {
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    font-family: monospace;
+    list-style: none;
+    margin: 10px;
+  }
+  .container footer .attribution {
+    color: #ffffff;
+  }
+  .container footer .easy {
+    color: gray;
+    font-size: 17px;
+    margin-left: 70px;
+  }
+  .container footer .attribution a {
+    color: #ffffff;
+  }
+  .container footer .footer_icon {
+    margin-left: 90px;
+    margin-bottom: 35px;
+  }
+  .container footer .socials {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 10px;
+  }
+  .container footer .last_button button {
+    background: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
+    background: linear-gradient(90deg, #31d35c, #2bb7da);
+    color: #ffffff;
+    border: none;
+    padding: 15px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    width: 180px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
