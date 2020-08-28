@@ -87,35 +87,33 @@
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
   margin: auto;
-  margin-bottom: 20px;
 }
 
-.container .first-part > .mocka {
+.container .first-part > .mocka #first_image {
   position: relative;
   top: -200px;
   right: -500px;
-  width: 800px;
-  height: 800px;
 }
 
 .container .first-part .mockab {
   display: none;
 }
 
-.container .first-part .mockb {
+.container .first-part .mockb #first_imageb {
   position: absolute;
   left: 660px;
   top: -100px;
-  height: 900px;
+  z-index: 2;
 }
 
-.container .first-part > .first-text {
-  margin-top: 103px;
-  margin-left: -715px;
+.container .first-part .first-text {
+  margin-top: -900px;
+  margin-left: 75px;
+  width: 900px;
   padding: 2rem 0;
 }
 
-.container .first-part > .first-text > h1 {
+.container .first-part .first-text > h1 {
   font-size: 50px;
   font-weight: normal;
   width: 50%;
@@ -123,7 +121,7 @@
   margin-bottom: 20px;
 }
 
-.container .first-part > .first-text p {
+.container .first-part .first-text p {
   line-height: 25px;
   color: gray;
   font-size: 15px;
@@ -131,7 +129,7 @@
   width: 40%;
 }
 
-.container .first-part > .first-text button {
+.container .first-part .first-text button {
   background: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
   background: linear-gradient(90deg, #31d35c, #2bb7da);
   color: #ffffff;
@@ -143,7 +141,7 @@
   width: 150px;
 }
 
-.container .first-part > .first-text button:hover {
+.container .first-part .first-text button:hover {
   background-image: -webkit-gradient(linear, left top, right top, from(#2bb7da), to(#31d35c));
   background-image: linear-gradient(90deg, #2bb7da, #31d35c);
   color: #fff;
@@ -349,9 +347,10 @@
   }
   .container .first-part {
     background: whitesmoke;
-    height: 500px;
+    margin-top: 80px;
     display: block;
     overflow: hidden;
+    bottom: 80px;
     padding-bottom: 0px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -364,23 +363,30 @@
   .container .first-part .mockab {
     position: relative;
     left: 0px;
+    top: -60px;
     display: block;
   }
-  .container .first-part .mockb {
+  .container .first-part .mockb #first_imageb {
     position: absolute;
-    left: 5px;
-    top: -250px;
-    height: 500px;
+    left: 6px;
+    right: 20px;
+    top: -130px;
+    width: 350px;
+    height: 430px;
   }
   .container .first-part .first-text {
-    margin-top: 103px;
+    margin-top: -3px;
+    z-index: 9;
+    width: 800px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-left: 15px;
     padding: 2rem 0;
   }
   .container .first-part .first-text h1 {
-    font-size: 50px;
+    font-size: 45px;
     font-weight: normal;
-    width: 50%;
     color: #555555;
     margin-bottom: 20px;
   }
@@ -396,16 +402,108 @@
     background: linear-gradient(90deg, #31d35c, #2bb7da);
     color: #ffffff;
     border: none;
+    margin-left: 70px;
     padding: 15px;
     border-radius: 50px;
     font-size: 13px;
     font-weight: 600;
     width: 150px;
   }
-  .container .first-part .first-text button:hover {
-    background-image: -webkit-gradient(linear, left top, right top, from(#2bb7da), to(#31d35c));
-    background-image: linear-gradient(90deg, #2bb7da, #31d35c);
-    color: #fff;
+  .container .second-part {
+    margin-top: 60px;
+    margin-bottom: 100px;
+    background-color: #ffffff;
+    padding: 10px,12px;
+    z-index: 1;
+  }
+  .container .second-part .second-text h2 {
+    font-size: 42px;
+    font-weight: normal;
+    margin-left: 60px;
+    margin-bottom: 25px;
+    color: #555;
+  }
+  .container .second-part .second-text p {
+    margin-left: 7%;
+    text-align: center;
+    width: 300px;
+    color: gray;
+    line-height: 25px;
+    margin-bottom: 100px;
+  }
+  .container .second-part .cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 7%;
+  }
+  .container .second-part .cards > .the-four {
+    width: 500px;
+    text-align: center;
+    margin-left: 8px;
+    line-height: 25px;
+    margin-top: 30px;
+  }
+  .container .second-part .cards > .the-four img {
+    vertical-align: top;
+    margin-bottom: 20px;
+  }
+  .container .second-part .cards > .the-four h3 {
+    font-size: 23px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  .container .second-part .cards > .the-four p {
+    color: gray;
+  }
+  .container .articles {
+    width: 100%;
+    background: #f5f5f5;
+    margin-top: 100px;
+    padding-left: 7%;
+    padding-bottom: 80px;
+  }
+  .container .articles > h1 {
+    font-size: 25px;
+    color: #555555;
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
+  .container .articles .articles-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .container .articles .articles-text .articles-four {
+    width: 240px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-right: 20px;
+    background: #ffffff;
+  }
+  .container .articles .articles-text .articles-four > img {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 5px 5px 0px 0px;
+  }
+  .container .articles .articles-text .articles-four .da_text {
+    color: gray;
+    margin-left: 7%;
+    margin-bottom: 7%;
+  }
+  .container .articles .articles-text .articles-four h2 {
+    color: #555555;
+    margin-left: 7%;
+    margin-bottom: 7%;
+    font-size: 18px;
+  }
+  .container .articles .articles-text .articles-four p {
+    margin-left: 7%;
+    color: gray;
+    line-height: 25px;
   }
 }
 /*# sourceMappingURL=style.css.map */
