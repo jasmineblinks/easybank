@@ -476,7 +476,7 @@
   }
   .articles-text{
       display: flex;
-      flex-wrap: wrap;
+    //   flex-wrap: wrap;
       .articles-four{
           width: 350px;
           border-radius: 5px;
@@ -493,17 +493,20 @@
           .da_text{
               color: gray;
               margin-left: 7%;
-              margin-right:30px ;
+              margin-right:9% ;
               margin-bottom: 7%;
           }
           h2{
               color: #555555;
+              width: 280px;
               margin-left: 7%;
               margin-bottom: 7%;
               font-size: 18px;
           }
           p{
               margin-left: 7%;
+              margin-bottom: 30px;
+              width: 280px;
               color: gray;
               line-height: 25px;
           }

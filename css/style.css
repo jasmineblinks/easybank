@@ -473,8 +473,6 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
   }
   .container .articles .articles-text .articles-four {
     width: 350px;
@@ -492,17 +490,20 @@
   .container .articles .articles-text .articles-four .da_text {
     color: gray;
     margin-left: 7%;
-    margin-right: 30px;
+    margin-right: 9%;
     margin-bottom: 7%;
   }
   .container .articles .articles-text .articles-four h2 {
     color: #555555;
+    width: 280px;
     margin-left: 7%;
     margin-bottom: 7%;
     font-size: 18px;
   }
   .container .articles .articles-text .articles-four p {
     margin-left: 7%;
+    margin-bottom: 30px;
+    width: 280px;
     color: gray;
     line-height: 25px;
   }
