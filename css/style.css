@@ -408,12 +408,13 @@
     background: linear-gradient(90deg, #31d35c, #2bb7da);
     color: #ffffff;
     border: none;
-    margin-left: 70px;
     padding: 15px;
+    margin-left: 70px;
+    margin-bottom: 20px;
     border-radius: 50px;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 600;
-    width: 150px;
+    width: 180px;
   }
   .container .second-part {
     margin-top: 60px;
