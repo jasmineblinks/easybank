@@ -543,14 +543,20 @@
     color: #ffffff;
   }
   .container footer .footer_icon {
-    margin-left: 90px;
+    margin-left: 85px;
     margin-bottom: 35px;
   }
   .container footer .socials {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin: 10px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-right: 50px;
+  }
+  .container footer .socials #sicon {
+    margin: 13px;
   }
   .container footer .last_button button {
     background: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));

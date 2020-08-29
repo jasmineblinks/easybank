@@ -552,14 +552,20 @@ footer{
     //   font-size: 50px;
   }
   .footer_icon{
-      margin-left: 90px;
+      margin-left: 85px;
       margin-bottom:35px
   }
   
   .socials{
       display: flex;    
-    //   justify-content: center;
-      margin: 10px;
+      justify-content: center;
+      margin-right: 50px;
+      
+
+      #sicon{
+        margin: 13px;
+        
+      }
       
       
   }
