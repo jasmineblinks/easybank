@@ -311,6 +311,9 @@
 
 .container {
     margin: auto;
+    @media screen and (min-width: 1200px) {
+        width: 900px;
+    }
 
     @media screen and (max-width: 600px) {
         nav{
@@ -356,7 +359,7 @@
                 position: absolute;
                 left:6px; 
                 right: 20px;       
-                top: -130px;
+                top: -125px;
                 width: 350px;
                 
                 height: 430px;

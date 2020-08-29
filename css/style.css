@@ -327,6 +327,12 @@
   margin: auto;
 }
 
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .container nav {
     background-color: white;
@@ -370,7 +376,7 @@
     position: absolute;
     left: 6px;
     right: 20px;
-    top: -130px;
+    top: -125px;
     width: 350px;
     height: 430px;
   }
