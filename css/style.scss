@@ -322,10 +322,11 @@
             margin-top: 80px;
             // height: 500px;
             display: block;
-            overflow: hidden;
             // bottom: 80px;
             padding-bottom: 0px;
-            flex-flow: column;
+            flex-flow: row wrap;
+            overflow-x: hidden;
+
         }
     }
 
