@@ -82,6 +82,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  overflow: hidden;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
@@ -335,12 +336,12 @@
     width: 100%;
     margin-top: 80px;
     display: block;
-    overflow: hidden;
     padding-bottom: 0px;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-            flex-flow: column;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    overflow-x: hidden;
   }
 }
 
