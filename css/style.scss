@@ -68,16 +68,17 @@
         
     }
     .first-part{
-        // background: hsl(0, 0%, 98%);
-        background:hsl(0, 0%, 96%);
-        position: relative;	
-        display: flex;
+        background: hsl(0, 0%, 98%);
+        
+        position: relative;
+        // display: flex;
         overflow: hidden;
         flex-flow: row wrap;
-        width: 100%;
-	// margin-top: -20px;
-    // height: 900px;
-    margin: auto;
+        // width: 100%;
+    // margin-top: -20px;
+    padding-bottom: 100px;
+    height: 800px;
+    // margin: auto;
     
     
     >.mocka #first_image{

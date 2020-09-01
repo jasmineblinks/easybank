@@ -77,18 +77,15 @@
 }
 
 .container .first-part {
-  background: whitesmoke;
+  background: #fafafa;
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   overflow: hidden;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
-  width: 100%;
-  margin: auto;
+  padding-bottom: 100px;
+  height: 800px;
 }
 
 .container .first-part > .mocka #first_image {
