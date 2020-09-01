@@ -313,7 +313,7 @@
 
 .container {
     margin: auto;
-    @media screen and (min-width: 1920px) {
+    @media screen and (max-width: 1920px) {
         width: 100%;
         .first-part{
             background:hsl(0, 0%, 96%);
