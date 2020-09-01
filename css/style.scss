@@ -72,11 +72,13 @@
         background:hsl(0, 0%, 96%);
         position: relative;	
         display: flex;
+        overflow: hidden;
         flex-flow: row wrap;
+        width: 100%;
 	// margin-top: -20px;
-    // height: 800px;
+    // height: 900px;
     margin: auto;
-    // margin-bottom:20px;
+    
     
     >.mocka #first_image{
         position: relative;
@@ -102,7 +104,7 @@
         margin-top: -900px;
         margin-left: 75px;
         width: 900px;
-        padding: 2rem 0;
+        // padding: 2rem 0;
         >h1{
             font-size: 50px;
             font-weight: normal;
@@ -114,7 +116,7 @@
             line-height: 25px;
             color: gray;
             font-size: 15px;
-          margin-bottom: 20px;
+        //   margin-bottom: 20px;
           width: 40%;
             
         }
@@ -311,8 +313,20 @@
 
 .container {
     margin: auto;
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1920px) {
         width: 100%;
+        .first-part{
+            background:hsl(0, 0%, 96%);
+            width: 100%;
+
+            margin-top: 80px;
+            // height: 500px;
+            display: block;
+            overflow: hidden;
+            // bottom: 80px;
+            padding-bottom: 0px;
+            flex-flow: column;
+        }
     }
 
     @media screen and (max-width: 600px) {

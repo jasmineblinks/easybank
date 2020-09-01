@@ -86,6 +86,7 @@
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
+  width: 100%;
   margin: auto;
 }
 
@@ -110,7 +111,6 @@
   margin-top: -900px;
   margin-left: 75px;
   width: 900px;
-  padding: 2rem 0;
 }
 
 .container .first-part .first-text > h1 {
@@ -125,7 +125,6 @@
   line-height: 25px;
   color: gray;
   font-size: 15px;
-  margin-bottom: 20px;
   width: 40%;
 }
 
@@ -327,9 +326,21 @@
   margin: auto;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1920px) {
   .container {
     width: 100%;
+  }
+  .container .first-part {
+    background: whitesmoke;
+    width: 100%;
+    margin-top: 80px;
+    display: block;
+    overflow: hidden;
+    padding-bottom: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
   }
 }
 
