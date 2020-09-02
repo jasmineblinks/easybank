@@ -536,7 +536,7 @@
     color: #ffffff;
     text-align: center;
     font-size: 20px;
-    font-family: monospace;
+    font-family: Verdana,  sans-serif;
     list-style: none;
     margin: 10px;
   }
@@ -567,18 +567,21 @@
   .container footer .socials #sicon {
     margin: 13px;
   }
+  .container footer .socials #sicon img {
+    width: 30px;
+  }
   .container footer .last_button button {
     background: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
     background: linear-gradient(90deg, #31d35c, #2bb7da);
     color: #ffffff;
     border: none;
     padding: 15px;
-    margin-left: 100px;
+    margin-left: 90px;
     margin-bottom: 20px;
     border-radius: 50px;
     font-size: 15px;
     font-weight: 600;
-    width: 180px;
+    width: 200px;
   }
 }
 /*# sourceMappingURL=style.css.map */

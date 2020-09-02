@@ -550,7 +550,7 @@ footer{
       color: #ffffff;
       text-align: center;
       font-size: 20px;
-      font-family: monospace;
+      font-family:Verdana,  sans-serif;
       list-style: none;
       margin: 10px;
   }
@@ -575,11 +575,13 @@ footer{
   .socials{
       display: flex;    
       justify-content: center;
-      margin-right: 50px;
-      
+      margin-right: 50px;     
 
       #sicon{
         margin: 13px;
+       img{
+           width: 30px;
+       }
         
       }
       
@@ -590,12 +592,12 @@ footer{
           color: #ffffff;
           border: none;
           padding: 15px;
-          margin-left: 100px;
+          margin-left: 90px;
           margin-bottom: 20px;
           border-radius: 50px;
           font-size: 15px;
           font-weight: 600;
-          width: 180px;
+          width: 200px;
   }
 //   .last_button button:hover{
 //       background-image: linear-gradient(90deg, hsl(192, 70%, 51%),hsl(136, 65%, 51%),);
