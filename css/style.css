@@ -874,6 +874,8 @@
     width: 100%;
     height: 70px;
     padding: 30px,30px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     margin-top: 10px;
     margin-left: 15px;
   }
