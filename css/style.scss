@@ -57,7 +57,10 @@
             font-weight: 600;
             width: 150px;
         }
-        .mobile_dropdown_btn{
+        #open{
+            display: none;
+        }
+        #close{
             display: none;
         }
         button:hover{
@@ -951,13 +954,31 @@ footer{
             margin-left: 15px;
             .la-links{
                 display: none;
+                background-color:#ffffff;
+                position: absolute;
+                z-index: 3; 
+                top:30px; 
+                left: 20px;              
+                padding-top: 50px;
+                 margin: 80px 10px 13px 15%; 
+                width: 60%;
+                height: 300px;
+                 border-radius: 5px;
+                 text-align: center;
+                 >li{
+                     display: block;
+                 }
+                
             }
             button{
                 display: none;
             }
-            .mobile_dropdown_btn{
+            #open{
                 display: inline-block;
                 
+            }
+            #close{
+                display: none;
             }
             
         }
