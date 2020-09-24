@@ -838,10 +838,10 @@
             justify-content: center;
     margin-right: 20px;
   }
-  .container footer .socials #sicon {
+  .container footer .socials .sicon {
     margin: 13px;
   }
-  .container footer .socials #sicon img {
+  .container footer .socials .sicon img {
     width: 30px;
   }
   .container footer .last_button button {
@@ -1113,10 +1113,10 @@
             justify-content: center;
     margin-right: 50px;
   }
-  .container footer .socials #sicon {
+  .container footer .socials .sicon {
     margin: 13px;
   }
-  .container footer .socials #sicon img {
+  .container footer .socials .sicon img {
     width: 30px;
   }
   .container footer .last_button button {
